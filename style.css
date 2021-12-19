@@ -266,27 +266,27 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     position: relative;
 }
 
-.contacts{
+.contactsb{
     padding: 30px 0;
     width: 1440px;
     margin: auto;
 }
-.contacts .left{
+.contactsb .left{
 
 }
-.contacts .left h1{
+.contactsb .left h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 12px;
     color: #969696;
 }
-.contacts .left span{
+.contactsb .left span{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 12px;
     color: #171717;
 }
-.contacts .contactcontent{
+.contactsb .contactcontent{
     margin-top: 147px;
     display: flex;
     justify-content: space-around;
