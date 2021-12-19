@@ -52,7 +52,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 .headerhome{
-    width: 100%;
+    width: 1440px;
+    margin: auto;
 }
 .headerhome .container{
     max-width: 1200px;
@@ -267,6 +268,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 .contacts{
     padding: 30px 0;
+    width: 1440px;
+    margin: auto;
 }
 .contacts .left{
 
@@ -380,7 +383,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 .colective{
-    width: 100%;
+    width: 1440px;
+    margin: auto;
     padding-top: 50px;
 }
 .colective .top{
@@ -471,9 +475,15 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 
 
-
-.footer{
+.bottomcontent{
     background: #F8F8F8;
+    width: 1440px;
+    margin: auto;
+}
+.footer{
+    width: 1100px;
+    margin: auto;
+    
     height: 370px;
     padding-top: 80px;
 }
