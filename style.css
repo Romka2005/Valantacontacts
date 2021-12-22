@@ -56,7 +56,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     margin: auto;
 }
 .headerhome .container{
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
 }
 .header{
@@ -68,9 +68,20 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     align-items: center;
     justify-content: space-between;
     padding-bottom: 40px;
-    border-bottom: 2px solid #E2E2E2;
+    position: relative;
+}
+.nav1:after{
+    content: "";
+    display: block;
+    width: 111%;
+    height: 1px;
+    background: rgba(208, 208, 208, 1);
+    position: absolute;
+    bottom: 0;
+    left: -72px;
 }
 .nav1 > div{
+    
     border-right: 2px solid #E2E2E2;
     height: 40px;
     display: flex;
@@ -78,6 +89,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     justify-content: space-between;
     width: 100%;
 }
+
 .nav1 .language{
     display: flex;
     flex-direction: column;
@@ -107,13 +119,15 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     font-size: 18px;
     display: flex;
     justify-content: space-around;
-    
+    padding-right: 15px;
 }
 .nav1 .social i{
     padding-left: 18px;
     color: black;
 }
 .nav1 .numberphone{
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -177,6 +191,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     display: flex;
     padding-top: 20px;
 }
+
 .nav2 i{
     color: black;
     margin-left: 25px;
@@ -269,7 +284,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     content: "";
     transform: rotate(180deg);
 }
-
+.nav ul .small ul li a{
+    width: 150px;
+}
 
 .container{
     max-width: 1100px;
@@ -277,6 +294,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     margin: auto;
     position: relative;
 }
+
 
 .contactsb{
     padding: 30px 0;
